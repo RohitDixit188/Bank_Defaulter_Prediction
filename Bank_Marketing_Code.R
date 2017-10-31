@@ -8,7 +8,7 @@ library(rattle)
 library(randomForest)
 
 #Importing Data Set
-Data <- read.csv2('C:/Users/Rohit Dixit/Downloads/Rohit_Git_Hub/Bank_Marketing_Data/bank-full.csv',header=TRUE)
+Data <- read.csv2('C:/bank-full.csv',header=TRUE)
 
 #Exploring Data
 summary(Data)
